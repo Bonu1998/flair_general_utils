@@ -1,0 +1,13 @@
+[package]
+name = "flair_general_utils"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.11", features = ["blocking", "json"] }
+serde_json = { version = "1.0.81" }
+serde = { version = "1.0.137", features = ["derive"] }
+log = { version = "0.4.1" }
+mysql = "22.2.0"
